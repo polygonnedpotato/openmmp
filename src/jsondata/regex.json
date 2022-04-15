@@ -1,0 +1,17 @@
+{
+  "file-header-aifc":"/tAIFCFVER/",
+  "file-header-criadx":"//(c/)CRI/",
+  "file-header-matroska":"/matroskaB/",
+  "file-header-ogg":"/OggS/",
+  "file-module-ahx":"/THX/",
+  "file-module-ay":"/ZXAYEMUL/",
+  "file-module-chi":"/CHIPv1/.0/",
+  "file-module-cop":"/ETracker /(C/) BY ESI/./P/",
+  "file-module-vortex":"/VortexTrackerII=0/",
+  "uri-openmmp-unconventional-loadexternal":"/mmwp:////loadExt//source=*/",
+  "uri-openmmp-unconventional-loadexternal-startingoffset":"/mmwp:////loadExt//source=*//&offset=*/",
+  "uri-openmmp-loadexternal":"/mmwp:////loadExt//source=*/",
+  "uri-youtube-loadvideo":"/youtube://///?v=*/",
+  "url-youtube":"/(youtube.com//watch///?v=|youtu.be//)/",
+  
+}
