@@ -9,13 +9,17 @@
   <meta name="description" content="Open-source multimedia player for the web!">
   <title>openmmp</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="src/libs/jquery-ui.min.css">
 </head>
 
 <body>
   <noscript>your browser fucking sucks</noscript>
   <div id="videoPlayer">
     <div id="videoPlayerControls">
-
+      <button id="vpc-pp" class="vpc button play-pause" title="Play/Pause">▶</button>
+      <a class="vpc texttime"id="vpc-time">--:--/---:--</a>
+      <input type="range" class="vpc slider" id="vpc-seek" min="0" max="0">
+      <button id="vpc-menu" class="vpc button hover" title="Menu" onclick="ui.playerControls.toggleMenu()">Menu</button>
     </div>
   </div>
   <!-- <script src="src/libs/echo3/Core.js"></script>
@@ -26,8 +30,11 @@
   <script src="src/libs/echo3/Client.js"></script>
   <script src="src/libs/echo3/Serial.js"></script>
   <script src="src/libs/echo3/FreeClient.js"></script> -->
+  <script src="src/libs/jquery.js"></script>
+  <script src="src/libs/jquery-ui.min.js"></script>
   <script src="src/debug.js"></script>
   <script src="src/ui.js"></script>
+  <script src="src/player.js"></script>
   <script src="script.js"></script>
 </body>
 

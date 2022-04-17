@@ -1,3 +1,39 @@
-.wow {
-  width: 100px;
+html, body {
+  color: white;
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+#videoPlayer{
+  height: 100%;
+}
+#videoPlayerControls{
+  border-width: 3px;
+  border-style: solid;
+  border-color:black;
+  background-color: white;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+.vpc{
+  display:inline-block;
+}
+.vpc.button.play-pause{
+  position:absolute;
+  /* display: block; */
+  left:0;
+}
+.vpc.texttime{
+  margin-left: 2%;
+  color: black;
+  font-family: monospace;
+}
+.vpc.slider{
+  /* display: block; */
+  width:fit-content;
 }
