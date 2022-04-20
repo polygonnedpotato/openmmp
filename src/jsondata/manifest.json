@@ -1,3 +1,67 @@
 {
-  
+  "name": "Open MultiMedia Player v0.0.0",
+  "short_name": "openmmp v0.0.0",
+  "description":"open source multimedia player that plays all the shit it can",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "minimal-ui",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/",
+  "dir": "ltr",
+  "categories": "entertainment,music,photo,productivity,utilities",
+  "lang": "en",
+  "icons":[{}],
+  "shortcuts":[
+    {
+      "name":"Replay last opened file",
+      "url":"?do=replayLastMedia",
+      "description":"replays the last opened media file."
+    }
+  ],
+  "protocol_handlers":[
+    {
+      "protocol":"mmwp",
+      "url":"?do=parseProtocol&url=%s"
+    },
+    {
+      "protocol":"ftp",
+      "url":"?do=openFS&proto=ftp&url=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/?do=parseShare",
+    "method": "GET",
+    "params": {"url":"url"}
+  },
+  "file_handlers":[{
+    "action":"?do=parseFile&source=pwa",
+    "accept":{
+      "audio/*":[
+        ".wav",
+        ".wave",
+        ".mp3",
+        ".aac",
+        ".ac3",
+        ".mka",
+        ".flac",
+        ".wma",
+        ".asf",
+        ".bika",
+        ".ogg",
+        ".oga",
+        ".m4a"
+      ],
+      "video/*":[
+        ".mp4",
+        ".m4v",
+        ".flv",
+        ".wmv",
+        ".smk",
+        ".mpg",
+        ".asf",
+        ".ogv"
+      ]
+    }
+  }]
 }
