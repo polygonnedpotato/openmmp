@@ -6,6 +6,11 @@ html, body {
   padding:0;
   overflow: hidden;
 }
+#subtitleBox{
+  background-color: rgba(0,0,0,75);
+  bottom:10%;
+  left:50%;
+}
 #videoPlayer{
   height: 100%;
 }
